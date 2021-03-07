@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
 </head>
-<body>
-    <div class = "container" id = "city-search">
-        <h1 class = "heading">Search for by city</h1>
+
+<body id="all-info">
+    <div class="container" id="city-search">
+        <h1 class="heading">Search for by city</h1>
         <br>
         <form>
             <input type="text" placeholder="Search for a city">
-            <button type = "submit">SUBMIT</button>
+            <button type="submit">SUBMIT</button>
+            <br>
+            <ul id = "past-cities"></ul>
         </form>
     </div>
-    <div class = "container" id = "city-weather">
-        <ul class = "cities"></ul>
-    </div>
-    <div class = "container" id = "city-forcast">
+    <div id = "weather-cards">
+        <div class="container" id="city-weather">
+            <ul class="cities"></ul>
+        </div>
+        <div class="container" id="city-forcast">
 
+        </div>
     </div>
-    
 </body>
+
 </html>
