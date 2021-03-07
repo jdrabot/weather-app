@@ -16,8 +16,9 @@ ul {
 }
 
 .heading {
+    font-size: 40px;
     font-weight: bold;
-    padding: 0 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 #all-info form {
@@ -26,11 +27,20 @@ ul {
     align-items: flex-start;
 }
 
-#all-info form input {
-    font-size: 2.5rem;
-    height: 30px;
+form input {
+    font-size: 20px;
 }
 
 form button {
     font-weight: bold;
+    background-color: rgb(9, 143, 69);
+    color: azure;
+    font-size: 20px;
+    border: solid 2px black;
 }
+
+form button:hover {
+    background-color: azure;
+    color: rgb(9, 143, 69);
+}
+
