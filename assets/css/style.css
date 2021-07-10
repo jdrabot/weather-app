@@ -1,46 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.card {
+  padding-top: 5%;
 }
 
-button, input {
-    border: none;
-    outline: none;
-    background-color: azure;
-    color: inherit;
+button,
+input {
+  border: none;
+  outline: none;
+  background-color: azure;
+  color: inherit;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .heading {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px 0 10px 0;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
 }
 
 #all-info form {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
 }
 
 form input {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 form button {
-    font-weight: bold;
-    background-color: rgb(9, 143, 69);
-    color: azure;
-    font-size: 20px;
-    border: solid 2px black;
+  font-weight: bold;
+  background-color: rgb(9, 143, 69);
+  color: azure;
+  font-size: 20px;
+  border: solid 2px black;
 }
 
 form button:hover {
-    background-color: azure;
-    color: rgb(9, 143, 69);
+  background-color: azure;
+  color: rgb(9, 143, 69);
 }
-

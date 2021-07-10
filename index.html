@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Weather Application</title>
 </head>
+<div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <h1>Weather Dashboard</h1>
+    </header>
+  </div>
 
 <body id="all-info">
     <div class="container" id="city-search">
@@ -20,14 +27,19 @@
             <ul id = "past-cities"></ul>
         </form>
     </div>
-    <div id = "weather-cards">
-        <div class="container" id="city-weather">
-            <ul class="cities"></ul>
+    <div class="card ">
+        <div class="card-body">
+          <h5 class="card-title city">City</h5>
         </div>
-        <div class="container" id="city-forcast">
-
-        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item temp">Temperature</li>
+          <li class="list-group-item humidity">Humidity</li>
+          <li class="list-group-item windspeed">Wind Speed</li>
+          <li class="list-group-item uvindex">UV Index</li>
+        </ul>
+      </div>
     </div>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 </html>
