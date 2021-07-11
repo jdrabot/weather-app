@@ -11,6 +11,11 @@
 
 ---
 
+## Github Repository and Deployed Site
+
+https://jdrabot.github.io/weather-app/
+https://github.com/jdrabot/weather-app
+
 ## Description
 
 An application that gives you the 5 day forecast of a city you enter
